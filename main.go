@@ -140,7 +140,6 @@ func sendMessage(ctx context.Context,
 					logger.WithField("Error", respErr).Warn("Failed to post to connection")
 				}
 			}
-			return true
 		}
 		return true
 	}
